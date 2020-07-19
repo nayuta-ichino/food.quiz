@@ -1,0 +1,70 @@
+/* header css */
+header{
+  font-size: 30px;
+  text-align: center;
+}
+
+.header_center h2{
+  margin-top: 15px;
+}
+
+.header_center i{
+  margin-right: 25px;
+}
+
+/* main css */
+.intro{
+  background-image: url(food_image.jpeg);
+  background-size: cover;
+  background-color: rgba(216, 146, 92, 0.6);
+  background-blend-mode: lighten;
+  width: auto;
+  height: 450px;
+  margin: 60px 30px 30px 30px;
+}
+
+.intro h1{
+  color: palegoldenrod;
+  text-shadow: 2px 3px 0 #348;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 80px;
+}
+
+/* .int_right{
+  float: right;
+} */
+
+.int_left{
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 1px 2px #448844;
+  line-height: 70px;
+  float: left;
+  font-size: 25px;
+  margin-bottom:25px;
+  margin-left: 30px;
+}
+
+@media (max-width:670px) {
+  .intro h1{
+    font-size: 25px;
+  }
+
+  .int_left p{
+    font-size: 15px;
+  }
+
+}
+
+.dis{
+  height: 40px;
+  width: auto;
+  text-align: center;
+  margin: 40px;
+}
+
+/* footer css */
+footer{
+  height: 10px;
+  width: auto;
+}
